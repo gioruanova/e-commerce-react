@@ -41,6 +41,7 @@
                 &::after {
                     content: "|";
                     margin: 0 10px;
+                    font-weight: 100;
 
                     @media screen and (max-width: 920px) {
                         content: "";
@@ -114,6 +115,7 @@
         align-items: center;
         color: $white;
         transition: $transitionHover;
+        
 
         svg {
             width: 1.5rem;
@@ -129,9 +131,11 @@
         span {
             margin-left: 10px;
             font-size: 20px;
+            
 
             @media screen and (max-width: 920px) {
                 margin-right: 10px;
+                font-size: 15px;
             }
         }
     }
@@ -160,10 +164,11 @@
 
     .navLink {
         color: $white;
-        text-decoration: none;
+        
         font-weight: bold;
         text-transform: uppercase;
         transition: $transitionHover;
+        font-size: 15px;
 
         &:hover {
             color: $secondaryColor;

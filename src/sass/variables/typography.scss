@@ -85,6 +85,7 @@
       color: $white;
       font-weight: 600;
       transition: $transitionHover;
+      text-decoration: none;
 
       @media screen and (max-width: 720px) {
           font-size: 18px;
@@ -182,6 +183,7 @@
           color: $primaryColor;
           font-weight: 600;
           transition: $transitionHover;
+          text-decoration: none;
 
           @media screen and (max-width: 720px) {
               font-size: 18px;
