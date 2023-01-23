@@ -1,0 +1,191 @@
+  h1 {
+      font-size: 80px;
+      margin: 0;
+      font-family: $titlesfont;
+      color: $white;
+      transition: $transitionHover;
+
+      @media screen and (max-width: 720px) {
+          font-size: 60px;
+          transition: $transitionHover;
+      }
+  }
+
+  h2 {
+      font-size: 50px;
+      margin: 0;
+      font-family: $mainFont;
+      color: $white;
+      text-transform: uppercase;
+      transition: $transitionHover;
+
+      @media screen and (max-width: 720px) {
+          font-size: 35px;
+          transition: $transitionHover;
+      }
+  }
+
+  h3 {
+      font-size: 40px;
+      margin: 0;
+      font-family: $mainFont;
+      color: $white;
+      transition: $transitionHover;
+
+      @media screen and (max-width: 720px) {
+          font-size: 30px;
+          transition: $transitionHover;
+      }
+  }
+
+  h4 {
+      font-size: 30px;
+      margin: 0;
+      font-family: $mainFont;
+      color: $white;
+      transition: $transitionHover;
+
+      @media screen and (max-width: 720px) {
+          font-size: 25px;
+          transition: $transitionHover;
+      }
+  }
+
+  h5 {
+      font-size: 25px;
+      margin: 0;
+      font-family: $mainFont;
+      color: $white;
+      transition: $transitionHover;
+
+      @media screen and (max-width: 720px) {
+          font-size: 20px;
+          transition: $transitionHover;
+      }
+  }
+
+  p {
+      font-size: 18px;
+      margin: 0;
+      font-family: $mainFont;
+      color: $white;
+      font-weight: 600;
+      transition: $transitionHover;
+
+      @media screen and (max-width: 720px) {
+          font-size: 18px;
+          transition: $transitionHover;
+      }
+  }
+
+  a {
+      font-size: 18px;
+      margin: 0;
+      font-family: $mainFont;
+      color: $white;
+      font-weight: 600;
+      transition: $transitionHover;
+
+      @media screen and (max-width: 720px) {
+          font-size: 18px;
+          transition: $transitionHover;
+      }
+  }
+
+
+
+  .mainContainer {
+      h1 {
+          font-size: 80px;
+          margin: 0;
+          font-family: $titlesfont;
+          color: $primaryFont;
+          transition: $transitionHover;
+
+          @media screen and (max-width: 720px) {
+              font-size: 60px;
+              transition: $transitionHover;
+          }
+      }
+
+      h2 {
+          font-size: 50px;
+          margin: 0;
+          font-family: $mainFont;
+          color: $primaryFont;
+          text-transform: uppercase;
+          transition: $transitionHover;
+
+          @media screen and (max-width: 720px) {
+              font-size: 35px;
+              transition: $transitionHover;
+          }
+      }
+
+      h3 {
+          font-size: 40px;
+          margin: 0;
+          font-family: $mainFont;
+          color: $primaryFont;
+          transition: $transitionHover;
+
+          @media screen and (max-width: 720px) {
+              font-size: 30px;
+              transition: $transitionHover;
+          }
+      }
+
+      h4 {
+          font-size: 30px;
+          margin: 0;
+          font-family: $mainFont;
+          color: $primaryFont;
+          transition: $transitionHover;
+
+          @media screen and (max-width: 720px) {
+              font-size: 25px;
+              transition: $transitionHover;
+          }
+      }
+
+      h5 {
+          font-size: 25px;
+          margin: 0;
+          font-family: $mainFont;
+          color: $primaryFont;
+          transition: $transitionHover;
+
+          @media screen and (max-width: 720px) {
+              font-size: 20px;
+              transition: $transitionHover;
+          }
+      }
+
+      p {
+          font-size: 18px;
+          margin: 0;
+          font-family: $mainFont;
+          color: $primaryFont;
+          font-weight: 600;
+          transition: $transitionHover;
+
+          @media screen and (max-width: 720px) {
+              font-size: 18px;
+              transition: $transitionHover;
+          }
+      }
+
+      a {
+          font-size: 18px;
+          margin: 0;
+          font-family: $mainFont;
+          color: $primaryColor;
+          font-weight: 600;
+          transition: $transitionHover;
+
+          @media screen and (max-width: 720px) {
+              font-size: 18px;
+              transition: $transitionHover;
+          }
+      }
+  }

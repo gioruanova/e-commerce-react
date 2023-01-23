@@ -1,0 +1,19 @@
+$mainBG: #2e2e2e;
+
+$white: #ffffff;
+$black: #000000;
+
+$primaryColor: #1f2938;
+$secondaryColor: #637fa9;
+
+$primaryFont: #323232;
+
+
+$transitionHover: all 400ms ease;
+
+
+@mixin braveFont() {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}

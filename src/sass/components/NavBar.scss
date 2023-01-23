@@ -1,3 +1,173 @@
-.nav-testing {
-    background-color: red;
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $primaryColor;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: $mainFont;
+
+    .navBarInnerContainer {
+        max-width: 1400px;
+        width: 100%;
+    }
+
+    .navbarDesktop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 2rem 1rem;
+        position: relative;
+
+        @media screen and (max-width: 920px) {
+            display: none;
+        }
+    }
+
+    .navigationDesktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navLinks {
+            margin-right: 2rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .navLink {
+                &::after {
+                    content: "|";
+                    margin: 0 10px;
+
+                    @media screen and (max-width: 920px) {
+                        content: "";
+                    }
+                }
+
+                &:last-child {
+                    &::after {
+                        content: "";
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .navBarrMobile {
+        display: none;
+
+        @media screen and (max-width: 920px) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 2rem 1rem;
+
+            .navLinks {
+                align-self: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 1rem;
+                margin-top: 1rem;
+                border-top: 1px solid white;
+                width: 100%;
+                display: none;
+
+                .navLink {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+    .navLogo {
+        background: url("/images/coder-logo.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 10rem;
+        height: 10rem;
+        position: absolute;
+        left: 10px;
+        top: 0px;
+        transition: $transitionHover;
+
+        @media screen and (max-width: 1050px) {
+            transition: $transitionHover;
+            width: 5rem;
+            height: 5rem;
+        }
+
+        @media screen and (max-width: 920px) {
+            left: 0;
+        }
+    }
+
+    .navCart {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: $white;
+        transition: $transitionHover;
+
+        svg {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        &:hover {
+            color: $secondaryColor;
+            transition: $transitionHover;
+            cursor: pointer;
+        }
+
+        span {
+            margin-left: 10px;
+            font-size: 20px;
+
+            @media screen and (max-width: 920px) {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .burger-menu {
+        transition: $transitionHover;
+        color: $white;
+
+        svg {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        &:hover {
+            color: $secondaryColor;
+            transition: $transitionHover;
+            cursor: pointer;
+        }
+    }
+
+    .mobile-menu-cart {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .navLink {
+        color: $white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: $transitionHover;
+
+        &:hover {
+            color: $secondaryColor;
+            transition: $transitionHover;
+        }
+    }
 }
