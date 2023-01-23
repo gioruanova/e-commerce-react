@@ -1,4 +1,4 @@
-﻿## :page_with_curl: CoderReact - E-Commerce Reactj CoderHouse
+﻿## :page_with_curl: CoderReact - E-Commerce Reactj Coderhouse
 
 ## Live Site on:
 
@@ -29,6 +29,8 @@ ReactJS, Javascript, SCSS, HTML
 
 Readme document created using [Readme SO](https://readme.so/es). Credits by [Katherine Oelsner](https://github.com/octokatherine)
 
+##
+##
 ##
 
 # Getting Started with Create React App
