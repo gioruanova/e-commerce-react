@@ -1,4 +1,4 @@
-﻿## :page_with_curl: Fast Tech - Shoping Cart Project
+﻿## :page_with_curl: CoderReact - E-Commerce Reactj CoderHouse
 
 ## Live Site on:
 
@@ -29,8 +29,8 @@ ReactJS, Javascript, SCSS, HTML
 
 Readme document created using [Readme SO](https://readme.so/es). Credits by [Katherine Oelsner](https://github.com/octokatherine)
 
+##
 
-==============
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
