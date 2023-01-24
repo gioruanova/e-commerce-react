@@ -7,6 +7,7 @@ import CardWidget from './CardWidget'
 export const NavBar = () => {
 
   let quantityUpdate = 5
+  
 
   return (
     <>
