@@ -1,10 +1,12 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import CardWidget from './CardWidget'
 
 
 export const NavBar = () => {
 
+  let quantityUpdate = 5
 
   return (
     <>
@@ -17,18 +19,31 @@ export const NavBar = () => {
             </a>
             <div className='navigationDesktop'>
               <div className='navLinks'>
-                <a className='navLink' href="/">Navigation 1</a>
-                <a className='navLink' href="/">Navigation 2</a>
-                <a className='navLink' href="/">Navigation 3</a>
-                <a className='navLink' href="/">Navigation 4</a>
-                <a className='navLink' href="/">Navigation 5</a>
+                <a className='navLink' href="/">Nosotros</a>
+                <div className='navLink subCursos' href="/">Cursos
+                  <div className='subNavLinkCursos'>
+                    <a className='navLink' href="/">HTML, CSS, Bootstrap</a>
+                    <a className='navLink' href="/">JQuery</a>
+                    <a className='navLink' href="/">Javascript</a>
+                    <a className='navLink' href="/">React JS</a>
+                    <a className='navLink' href="/">Angular Js</a>
+                  </div>
+                </div>
+                <div className='navLink subCarreras' href="/">Carreras
+                  <div className='subNavLinkCarreras'>
+                    <a className='navLink' href="/">Programacion</a>
+                    <a className='navLink' href="/">Desarrollo Web</a>
+                    <a className='navLink' href="/">Big Data</a>
+                    <a className='navLink' href="/">Cyberseguridad</a>
+                    <a className='navLink' href="/">Redes</a>
+                  </div>
+                </div>
+                <a className='navLink' href="/">Capacitaciones</a>
+                <a className='navLink' href="/">Contacto</a>
               </div>
 
               <a href="/">
-                <div className='navCart'>
-                  <FontAwesomeIcon icon={faCartShopping} />
-                  <span>(0)</span>
-                </div>
+                <CardWidget quantity={quantityUpdate} />
               </a>
             </div>
 
@@ -39,10 +54,7 @@ export const NavBar = () => {
             </a>
             <div className='mobile-menu-cart'>
               <a href="/">
-                <div className='navCart'>
-                  <FontAwesomeIcon icon={faCartShopping} />
-                  <span>(0)</span>
-                </div>
+                <CardWidget quantity={quantityUpdate} />
               </a>
               <div class="burger-menu">
                 <FontAwesomeIcon icon={faBars} />
@@ -50,11 +62,31 @@ export const NavBar = () => {
               </div>
             </div>
             <div className='navLinks'>
-              <a className='navLink' href="/">Navigation 1</a>
-              <a className='navLink' href="/">Navigation 2</a>
-              <a className='navLink' href="/">Navigation 3</a>
-              <a className='navLink' href="/">Navigation 4</a>
-              <a className='navLink' href="/">Navigation 5</a>
+              <a className='navLink' href="/">Nosotros</a>
+
+              <div className='navLink mobileSub' href="/">Cursos
+                <div className='subNavLinkCursos'>
+                  <a className='navLink' href="/">HTML, CSS, Bootstrap</a>
+                  <a className='navLink' href="/">JQuery</a>
+                  <a className='navLink' href="/">Javascript</a>
+                  <a className='navLink' href="/">React JS</a>
+                  <a className='navLink' href="/">Angular Js</a>
+                </div>
+              </div>
+
+              <div className='navLink mobileSub' href="/">Carreras
+                <div className='subNavLinkCarreras'>
+                  <a className='navLink' href="/">Programacion</a>
+                  <a className='navLink' href="/">Desarrollo Web</a>
+                  <a className='navLink' href="/">Big Data</a>
+                  <a className='navLink' href="/">Cyberseguridad</a>
+                  <a className='navLink' href="/">Redes</a>
+                </div>
+              </div>
+
+
+              <a className='navLink' href="/">Capacitaciones</a>
+              <a className='navLink' href="/">Contacto</a>
             </div>
           </div>
 

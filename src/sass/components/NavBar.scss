@@ -55,8 +55,6 @@
                 }
             }
         }
-
-
     }
 
     .navBarrMobile {
@@ -77,7 +75,7 @@
                 margin-top: 1rem;
                 border-top: 1px solid white;
                 width: 100%;
-                display: none;
+                // display: none;
 
                 .navLink {
                     margin: 10px;
@@ -115,7 +113,7 @@
         align-items: center;
         color: $white;
         transition: $transitionHover;
-        
+
 
         svg {
             width: 1.5rem;
@@ -131,7 +129,7 @@
         span {
             margin-left: 10px;
             font-size: 20px;
-            
+
 
             @media screen and (max-width: 920px) {
                 margin-right: 10px;
@@ -164,7 +162,7 @@
 
     .navLink {
         color: $white;
-        
+
         font-weight: bold;
         text-transform: uppercase;
         transition: $transitionHover;
@@ -173,6 +171,86 @@
         &:hover {
             color: $secondaryColor;
             transition: $transitionHover;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.subNavLinkCursos {
+    display: none;
+}
+
+.subCursos {
+    &:hover {
+        .subNavLinkCursos {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            background-color: $primaryColor;
+            width: auto;
+            padding: 20px 5px 10px 5px;
+
+            a {
+                width: 100%;
+                margin: 5px 0 5px 10px;
+                font-weight: 200;
+
+                &::after {
+                    content: "" !important;
+                }
+            }
+        }
+    }
+}
+
+.subNavLinkCarreras {
+    display: none;
+}
+
+.subCarreras {
+    &:hover {
+        .subNavLinkCarreras {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            background-color: $primaryColor;
+            width: auto;
+            padding: 20px 5px 10px 5px;
+
+            a {
+                width: 100%;
+                margin: 5px 0 5px 10px;
+                font-weight: 200;
+
+                &::after {
+                    content: "" !important;
+                }
+            }
+        }
+    }
+}
+
+.mobileSub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .subNavLinkCarreras,
+    .subNavLinkCursos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .navLink {
+            font-weight: 200;
+            margin: 5px 0 !important;
+
+            &::before {
+                content: ">";
+                margin-right: 10px;
+            }
         }
     }
 }
