@@ -1,9 +1,9 @@
 import React from 'react'
 
-const MainContainer = () => {
+const MainContainer = ({ initialWelcome }) => {
   return (
     <div className='mainContainer'>
-      <h1>H1 - Title</h1>
+      <h1>{initialWelcome}</h1>
       <h2>H2 - Title</h2>
       <h3>H3 - Title</h3>
       <h4>H4 - Title</h4>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import CardWidget from './CardWidget'
+import CartWidget from './CartWidget'
 
 
 export const NavBar = () => {
@@ -44,7 +44,7 @@ export const NavBar = () => {
               </div>
 
               <a href="/">
-                <CardWidget quantity={quantityUpdate} />
+                <CartWidget quantity={quantityUpdate} />
               </a>
             </div>
 
@@ -55,7 +55,7 @@ export const NavBar = () => {
             </a>
             <div className='mobile-menu-cart'>
               <a href="/">
-                <CardWidget quantity={quantityUpdate} />
+                <CartWidget quantity={quantityUpdate} />
               </a>
               <div class="burger-menu">
                 <FontAwesomeIcon icon={faBars} />

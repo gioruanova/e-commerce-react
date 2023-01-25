@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 
-const CardWidget = ({quantity}) => {
+const CartWidget = ({quantity}) => {
     return (
         <div className='navCart'>
             <FontAwesomeIcon icon={faCartShopping} />
@@ -11,4 +11,4 @@ const CardWidget = ({quantity}) => {
     )
 }
 
-export default CardWidget
+export default CartWidget
