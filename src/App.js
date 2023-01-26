@@ -8,9 +8,12 @@ function App() {
       <NavBar />
       <MainContainer initialWelcome="Initial Welcome Testing H1" />
       <Footer />
+      
     </>
   );
 }
 
 export default App;
+
+
 

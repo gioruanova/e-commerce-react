@@ -1,13 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import CartWidget from './CartWidget'
 
 
-export const NavBar = () => {
 
-  let quantityUpdate = 5
-  
+export const NavBar = () => {
+  let quantityUpdate = 5;
+
+  let navShow = "";
+
+  const [toggle, setToggle] = useState(true)
+
+
+
+
 
   return (
     <>
@@ -57,12 +64,13 @@ export const NavBar = () => {
               <a href="/">
                 <CartWidget quantity={quantityUpdate} />
               </a>
-              <div class="burger-menu">
-                <FontAwesomeIcon icon={faBars} />
-                {/* <FontAwesomeIcon icon={faXmark} /> */}
+              <div class="burger-menu" onClick={() => setToggle(!toggle)}>
+                {toggle ? <FontAwesomeIcon icon={faBars} /> : <FontAwesomeIcon icon={faXmark} />}
+                
+
               </div>
             </div>
-            <div className='navLinks'>
+            <div className={`navLinks ${toggle ? navShow : navShow = `showMenu`}`}>
               <a className='navLink' href="/">Nosotros</a>
 
               <div className='navLink mobileSub' href="/">Cursos
