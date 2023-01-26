@@ -183,13 +183,13 @@
 }
 
 
-.subNavLinkCursos {
+.subNavLinkPc {
     display: none;
 }
 
-.subCursos {
+.subPc {
     &:hover {
-        .subNavLinkCursos {
+        .subNavLinkPc {
             position: absolute;
             display: flex;
             flex-direction: column;
@@ -210,13 +210,13 @@
     }
 }
 
-.subNavLinkCarreras {
+.subNavLinkTelefonia {
     display: none;
 }
 
-.subCarreras {
+.subTelefonia {
     &:hover {
-        .subNavLinkCarreras {
+        .subNavLinkTelefonia {
             position: absolute;
             display: flex;
             flex-direction: column;
@@ -242,8 +242,8 @@
     flex-direction: column;
     align-items: center;
 
-    .subNavLinkCarreras,
-    .subNavLinkCursos {
+    .subNavLinkTelefonia,
+    .subNavLinkPc {
         display: flex;
         flex-direction: column;
         justify-content: center;

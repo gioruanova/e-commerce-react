@@ -28,22 +28,22 @@ export const NavBar = () => {
             <div className='navigationDesktop'>
               <div className='navLinks'>
                 <a className='navLink' href="/">Nosotros</a>
-                <div className='navLink subCursos' href="/">Cursos
-                  <div className='subNavLinkCursos'>
-                    <a className='navLink' href="/">HTML, CSS, Bootstrap</a>
-                    <a className='navLink' href="/">JQuery</a>
-                    <a className='navLink' href="/">Javascript</a>
-                    <a className='navLink' href="/">React JS</a>
-                    <a className='navLink' href="/">Angular Js</a>
+                <div className='navLink subPc' href="/">PC
+                  <div className='subNavLinkPc'>
+                    <a className='navLink' href="/">Gabinetes</a>
+                    <a className='navLink' href="/">Memorias</a>
+                    <a className='navLink' href="/">Almacenamiento</a>
+                    <a className='navLink' href="/">Placas graficas</a>
+                    <a className='navLink' href="/">Gaming</a>
                   </div>
                 </div>
-                <div className='navLink subCarreras' href="/">Carreras
-                  <div className='subNavLinkCarreras'>
-                    <a className='navLink' href="/">Programacion</a>
-                    <a className='navLink' href="/">Desarrollo Web</a>
-                    <a className='navLink' href="/">Big Data</a>
-                    <a className='navLink' href="/">Cyberseguridad</a>
-                    <a className='navLink' href="/">Redes</a>
+                <div className='navLink subTelefonia' href="/">Telefonia
+                  <div className='subNavLinkTelefonia'>
+                    <a className='navLink' href="/">Telefonos</a>
+                    <a className='navLink' href="/">Accesorios</a>
+                    <a className='navLink' href="/">Cargadores</a>
+                    <a className='navLink' href="/">Displays</a>
+                    <a className='navLink' href="/">Audio</a>
                   </div>
                 </div>
                 <a className='navLink' href="/">Capacitaciones</a>
@@ -74,22 +74,22 @@ export const NavBar = () => {
               <a className='navLink' href="/">Nosotros</a>
 
               <div className='navLink mobileSub' href="/">Cursos
-                <div className='subNavLinkCursos'>
-                  <a className='navLink' href="/">HTML, CSS, Bootstrap</a>
-                  <a className='navLink' href="/">JQuery</a>
-                  <a className='navLink' href="/">Javascript</a>
-                  <a className='navLink' href="/">React JS</a>
-                  <a className='navLink' href="/">Angular Js</a>
+                <div className='subNavLinkPc'>
+                  <a className='navLink' href="/">Gabinetes</a>
+                  <a className='navLink' href="/">Memorias</a>
+                  <a className='navLink' href="/">Almacenamiento</a>
+                  <a className='navLink' href="/">Placas graficas</a>
+                  <a className='navLink' href="/">Gaming</a>
                 </div>
               </div>
 
               <div className='navLink mobileSub' href="/">Carreras
-                <div className='subNavLinkCarreras'>
-                  <a className='navLink' href="/">Programacion</a>
-                  <a className='navLink' href="/">Desarrollo Web</a>
-                  <a className='navLink' href="/">Big Data</a>
-                  <a className='navLink' href="/">Cyberseguridad</a>
-                  <a className='navLink' href="/">Redes</a>
+                <div className='subNavLinkTelefonia'>
+                  <a className='navLink' href="/">Telefonos</a>
+                  <a className='navLink' href="/">Accesorios</a>
+                  <a className='navLink' href="/">Cargadores</a>
+                  <a className='navLink' href="/">Displays</a>
+                  <a className='navLink' href="/">Audio</a>
                 </div>
               </div>
 
