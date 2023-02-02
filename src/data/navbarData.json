@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Nosotros",
+        "url": "/"
+    },
+    {
+        "name": "PC",
+        "url": "/",
+        "subLinks": [
+            {
+                "name": "Gabinetes",
+                "url": "/"
+            },
+            {
+                "name": "Placas Graficas",
+                "url": "/"
+            },
+            {
+                "name": "Memorias",
+                "url": "/"
+            },
+            {
+                "name": "Almacenamientos",
+                "url": "/"
+            },
+            {
+                "name": "Perifericos",
+                "url": "/"
+            }
+        ]
+    },
+    {
+        "name": "Celulares",
+        "url": "/",
+        "subLinks": [
+            {
+                "name": "Modelos",
+                "url": "/"
+            },
+            {
+                "name": "Accesorios",
+                "url": "/"
+            },
+            {
+                "name": "Cargadores",
+                "url": "/"
+            },
+            {
+                "name": "Display",
+                "url": "/"
+            },
+            {
+                "name": "Audio",
+                "url": "/"
+            }
+        ]
+    },
+    {
+        "name": "Cursos",
+        "url": "/"
+    },
+    {
+        "name": "Contacto",
+        "url": "/"
+    }
+]

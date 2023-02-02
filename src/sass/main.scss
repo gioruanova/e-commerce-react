@@ -5,9 +5,10 @@
 @import "custom/index";
 
 
-@import "components/MainContainer.scss";
+@import "../components/Navbar/NavBar.scss";
+@import "../components/Container/MainContainer.scss";
+@import "../components/Productcard/productsLayout.scss";
 
-@import "components/NavBar.scss";
-@import "components/Footer.scss";
+@import "../components/Footer/Footer.scss";
 
 

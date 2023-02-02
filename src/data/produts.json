@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Gabinete",
+        "specs": "Corsair 80cm",
+        "price": 3500,
+        "stock": true,
+        "units": 30,
+        "picture":"corsair.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Samsung Solid Disc",
+        "specs": "Solid disk 2tb",
+        "price": 80000,
+        "stock": true,
+        "units": 10,
+        "picture":"samsung.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Geforce RTX",
+        "specs": "3090",
+        "price": 250000,
+        "stock": true,
+        "units":5,
+        "picture":"gef3090.jpg"
+    }
+]

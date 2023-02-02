@@ -1,6 +1,7 @@
-import Footer from "./components/Footer";
-import { NavBar } from "./components/NavBar";
-import MainContainer from "./layouts/MainContainer";
+import Footer from "./components/Footer/Footer";
+import { NavBar } from "./components/navbar/NavBar";
+import MainContainer from "./components/Container/MainContainer";
+
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <NavBar />
       <MainContainer initialWelcome="Initial Welcome Testing H1" />
       <Footer />
-      
+
     </>
   );
 }
