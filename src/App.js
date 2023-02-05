@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <MainContainer initialWelcome="Initial Welcome Testing H1" />
+      <MainContainer/>
       <Footer />
 
     </>

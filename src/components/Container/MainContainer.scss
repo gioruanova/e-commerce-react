@@ -1,6 +1,6 @@
 .mainContainer {
     background-color: #c5c5c56e;
-    max-width: 1000px;
+    max-width: 1400px;
     width: 100%;
     margin: 8rem auto 2rem auto;
     padding: 2rem;
@@ -8,10 +8,12 @@
     border-radius: 20px;
     transition: $transitionHover;
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1110px) {
         border-radius: 0;
         transition: $transitionHover;
-        width: auto;
+        width: 100%;
+        max-width: 100%;
+        padding: 2rem 0;
     }
 
 }

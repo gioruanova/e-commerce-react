@@ -2,11 +2,10 @@ import React from 'react'
 
 import ProductsData from '../Productcard/ProductsData'
 
-const MainContainer = ({ initialWelcome }) => {
+const MainContainer = () => {
   return (
     <div className='mainContainer'>
-      <h1>{initialWelcome}</h1>
-      <ProductsData />
+            <ProductsData />
 
     </div>
   )

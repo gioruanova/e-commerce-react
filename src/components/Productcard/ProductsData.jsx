@@ -1,12 +1,12 @@
 import React from 'react'
 import ProductCard from './ProductCard'
-import products from '../../data/produts.json'
+import {Products} from '../../data/Produts'
 
 
 const ProductsData = () => {
     return (
         <div className='productsGrid'>
-            {products.map((product) => (
+            {Products.map((product) => (
                 <ProductCard key={product.id} product={product} />
             ))}
         </div>

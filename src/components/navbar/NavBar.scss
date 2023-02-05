@@ -10,6 +10,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
 
 .navLogo {
@@ -69,6 +70,14 @@ ul {
                 @media screen and (max-width: 920px) {
                     top: auto;
                 }
+            }
+        }
+
+        &:active {
+            background-color: $white;
+
+            a {
+                color: $secondaryColor;
             }
         }
 
@@ -145,9 +154,18 @@ ul {
         li {
             cursor: pointer;
             transition: $transitionHover;
-            &:hover{
+
+            &:hover {
                 background-color: $secondaryColor;
                 transition: $transitionHover;
+            }
+
+            &:active {
+                background-color: $white;
+
+                a {
+                    color: $secondaryColor;
+                }
             }
 
         }
@@ -180,6 +198,20 @@ ul {
             color: $secondaryColor;
         }
     }
+
+    &:active {
+        svg {
+            path {
+                fill: $white;
+                transition: $transitionHover;
+            }
+        }
+
+        a {
+            color: $white;
+        }
+    }
+
 }
 
 .burger-menu {
