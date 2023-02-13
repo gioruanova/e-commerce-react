@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 import CartWidget from './CartWidget'
 import navbarLinks from '../../data/navbarData.json'
+import { Link } from 'react-router-dom'
 
 
 export const NavBar = () => {
@@ -16,9 +17,9 @@ export const NavBar = () => {
   return (
     <div className='navbarContainer'>
       <div className='navBarInnerContainer'>
-        <a rel="noreferrer" href="/">
+        <Link to="/">
           <span className={`navLogo ${toggle ? navShow : navShow = `hideLogo`}`}></span>
-        </a>
+        </Link>
         <ul className={`mainNavigation ${toggle ? navShow : navShow = `showMenu`}`}>
           {navbarLinks.map((e, index) => (
             <li key={index} className='topNav'><a href={e.url}>{e.name}</a>
@@ -26,15 +27,15 @@ export const NavBar = () => {
                 <ul className='subLinks'>
                   {e.subLinks.map((item, itemIndex) => (
                     <li key={itemIndex}>
-                      <a href={item.url}>{item.name}</a>
+                      <Link to={item.url}>{item.name}</Link>
                     </li>))}
                 </ul>}
             </li>))}
         </ul>
         <div className='cartContainer'>
-          <a href="/">
+          <Link to="/cart">
             <CartWidget quantity={quantityUpdate} />
-          </a>
+          </Link>
         </div>
         <div className="burger-menu" onClick={() => setToggle(!toggle)}>
           {toggle ? <FontAwesomeIcon icon={faBars} /> : <FontAwesomeIcon icon={faXmark} />}</div>

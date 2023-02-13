@@ -1,11 +1,18 @@
 .footerContainer {
     background-color: $primaryColor;
+    position: fixed;
     bottom: 0;
     text-align: center;
     padding: 2rem;
     color: $white;
     font-size: 16px;
     font-family: $mainFont;
+    width: 100%;
+
+    @media screen and (max-width: 920px) {
+        position: relative;
+        width: auto;
+    }
 
     a {
         color: $white;

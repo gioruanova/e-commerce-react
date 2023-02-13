@@ -5,6 +5,9 @@ import teclado from '../images/products/teclado.JPG'
 import monitor from '../images/products/monitor.JPG'
 
 
+
+
+
 export const Products = [
     {
         id: 1,
